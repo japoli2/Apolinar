@@ -1,0 +1,381 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>10 principles of design</title>
+	<meta name="viewport" content="width=device=width, initial-scale=1.0">
+<style>
+	body{
+		background-color: black;
+		font-family: "Helvetica Neue LT Std",Arial, sans-serif;
+	/*background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(214,171,120,1) 100%, rgba(192,150,100,1) 100%);*/
+		}
+/*/header/*/
+	.rams{
+		font-size: 48px;
+    	position: absolute;
+  		top: 27%;
+  		left: 22%;
+		color: white;
+		font-family: "Helvetica Neue LT Std thin";
+    	transform: rotate(-90deg);
+    	white-space:nowrap;
+		}
+	
+	.diez{
+		position: absolute;
+  		right: 250px;
+  		width: 50%;
+		bottom: 30px;
+		color: white;
+		font-size: 550px;
+		font-weight: bold;
+		color: #C09664;
+	}
+		
+	.bottom-right{
+		color: white;
+    	position: absolute;
+		bottom: 140px;
+  		right: 355px;
+		font-size: 48px;
+		font-family: "Helvetica Neue LT Std thin";
+		}
+	.bottom-right1{
+		color: white;
+    	position: absolute;
+		bottom: 70px;
+  		right: 300px;
+		font-size: 48px;
+		font-weight: bold;
+		}
+/*	/side numbers/*/
+	.side{
+		color: #C09664;
+		position: fixed;
+  		left: 70px;
+  		width: 20%;
+		bottom: 100px;
+		font-size: 38px;
+		font-weight: bold;
+		}
+	.side10{
+		color: #C09664;
+		position: fixed;
+  		left: 50px;
+  		width: 20%;
+		bottom: 95px;
+		font-size: 38px;
+		font-weight: bold;
+		}
+	
+	.line{
+  		border-left: 2px solid white;
+  		height: 480px;
+  		position: fixed;
+  		left: 110px;
+  		margin-left: -3px;
+  		top: 70px;
+		}
+	a {
+		color: #C09664;
+		text-decoration: none;
+		}
+	
+	a:hover {
+		color: white;
+	}
+
+/*/row1/*/
+	.row1{
+		display: grid;
+  		height: 100px;
+  		grid-template-columns: auto;
+  		grid-row-gap: 550px;
+  		padding-top: 0px;
+	
+		/*/position: absolute;
+		left: 250px;
+		top: 500px;
+		display: grid;
+		float: left;
+		grid-gap: 10px;/*/
+		
+		}
+	
+	.text h1{
+		color: #C09664;
+		font-weight: bold;
+		font-size: 380px;
+		position: absolute;
+		display: grid;
+		padding-top: 500px;
+		left: 150px;
+	
+	}
+	.text h2{
+		color: white;
+		font-weight: bold;
+		font-size: 38px;
+		position: relative;
+		top: 820px;
+		left: 250px;
+		width: 500px;
+	}
+	.text p{
+		font-family: "Helvetica Neue LT Std thin";
+		font-size: 18px;
+		color: white;
+		float: left;
+		position: relative;
+		width: 50%;
+		line-height: 1.4;
+		left: 250px;
+		top: 790px;
+		}
+/*/row2/*/
+	.row2{
+		display: grid;
+  		height: 100px;
+  		grid-template-columns: auto;
+  		grid-row-gap: 550px;
+  		padding-top: 120px;
+		}
+	
+	.text1 h1{
+		color: #C09664;
+		font-weight: bold;
+		font-size: 380px;
+		position: absolute;
+		display: grid;
+		padding-top: 500px;
+		left: 550px;
+	
+	}
+	.text1 h2{
+		color: white;
+		font-weight: bold;
+		font-size: 38px;
+		position: relative;
+		top: 820px;
+		left: 670px;
+		width: 500px;
+	}
+	.text1 p{
+		font-family: "Helvetica Neue LT Std thin";
+		font-size: 18px;
+		color: white;
+		float: left;
+		position: relative;
+		width: 50%;
+		line-height: 1.4;
+		left: 670px;
+		top: 780px;
+		}
+/*	mobile*/
+	@media only screen and (max-width:700px){
+		.top{
+			width: 50px;
+			}
+		
+		.side{
+			left: 20px;
+			bottom: 60px;
+		}
+		
+		.side10{
+			left: 10px;
+			bottom: 53px;
+		}
+	
+		.line{
+			height: 480px;
+			left: 110px;
+			margin-left: -35px;
+			top: 53px;
+		}
+		.rams{
+			font-size: 28px;
+			top: 59%;
+			left: 15%;
+		}
+	
+		.diez{
+			font-size: 280px;
+			letter-spacing: -30px;
+			right: 95px;
+			}
+		
+		.bottom-right{
+			bottom: 45px;
+			right: 60px;
+			font-size: 28px;
+		}
+		
+		.bottom-right1{
+			bottom: 0px;
+			right: 30px;
+			font-size: 28px;
+		}
+		
+		.text h1{
+			width: 50%;
+			font-size: 280px;
+			left: 90px;
+			}
+		
+		.text h2{
+			width: 50%;
+			top:  730px;
+			left: 250px;
+			font-size: 28px;
+			}
+		.text p{
+			left: 250px;
+			top: 710px;
+			font-size: 18px;
+		}
+		
+		.text1 h1{
+			width: 50%;
+			padding-top: 700px;
+			left: 90px;
+			font-size: 280px;
+			letter-spacing: -30px;
+			}
+		
+		.text1 h2{
+			width: 50%;
+			left: 250px;
+			top: 920px;
+			font-size: 28px;
+			}
+		
+		.text1 p{
+			left: 250px;
+			top: 900px;
+			left: 250px;
+			font-size: 18px;
+			}
+		
+	}
+	
+</style>
+</head>
+
+<body>
+	<div class="top">
+		<div class="rams">Dieter Rams</div>
+		<div class="diez">10</div>
+		<div class="bottom-right">Principles of</div>
+		<div class="bottom-right1">Good Design</div>
+	</div>
+	
+	<div class="side">
+		<p><a class="link" href="#one">1</a><br><a  class="link" href="#two">2</a><br><a href="#three">3</a><br><a class="link" href="#four">4</a><br><a class="link" href="#five">5</a><br><a class="link" href="#six">6</a><br><a class="link" href="#seven">7</a><br><a class="link" href="#eight">8</a><br><a class="link" href="#nine">9</a><br></p>
+		<a class="side10 link" href="#ten">10</a>
+		<div class="line"></div>
+	</div>
+	
+	<div class="row1">
+		<div class="text">
+			<h1>1</h1>
+			<h2 id="one">Good Design is Innovative</h2>
+			<p>I agree with this because technology is always growing and everything else is also advancing. Good design is innovative because it allows itself to be developed with the idea thatpeople understand it and know how to use it.</p>
+			</div>
+		<div class="text">
+			<h1>3</h1>
+			<h2 id="three">Good design is aesthetic</h2>
+			<p>I agree that good design is aesthetically pleasing because that determines if the product is going to be successful among the people. When designing I try to make my designs aesthetically pleasing for the people.</p>
+			</div>
+		<div class="text">
+			<h1>5</h1>
+			<h2 id="five">Good design is unobtrusive</h2>
+			<p>In some way I agree with this idea 
+			because I do think that people should 
+			have user self-expression but 
+			sometimes products can be seen as 
+			decorative objects and works of art.
+			</p>
+			</div>
+		<div class="text">
+			<h1>7</h1>
+			<h2 id="seven">Good design is long-lasting</h2>
+			<p>Agree with this idea because good 
+			designs can be relevant for a really long 
+			time and appreciated. I also think that
+			time will play a huge impact in the type
+			of design created.
+			</p>
+			</div>
+		<div class="text">
+			<h1>9</h1>
+			<h2 id="nine">Good design is<br>environmentally friendly</h2>
+			<p>This is important because I feel
+			that having environmentally friendly 
+			designs is an amazing way to stay 
+			connected to the people and the world. 
+			I try my best to put this in practice in 
+			every small thing I do.
+			</p>
+			</div>
+	</div>
+	
+	<div class="row2">
+		<div class="text1">
+			<h1>2</h1>
+			<h2 id="two">Good design makes a<br>product useful</h2>
+			<p>Good design should be a tool 
+				that helps instead of creating 
+				problems for the used. When 
+				creating designs I always try to
+				keep this in mind so it can be 
+				more effective.
+				</p>
+			</div>
+		<div class="text1">
+			<h1>4</h1>
+			<h2 id="four">Good design makes a<br>product understandable</h2>
+			<p>Being able to create something that is 
+				self-explanatory so the viewers and 
+				users can be able to understand a product 
+				without any prior knowledge is considered 
+				good design. Making a product useful
+				and understandable is one of the things
+				that ties up to things I tried to incorporate 
+				in my designs.
+				</p>
+			</div>
+		<div class="text1">
+			<h1>6</h1>
+			<h2 id="six">Good design is honest</h2>
+			<p>I agree that good design is honest 
+				and should be genuine with people 
+				because they can tell whether something 
+				is living up to what they say. Although 
+				being honest is a tough practice it's always something everyone should incorporate in their designs.
+				</p>
+			</div>
+		<div class="text1">
+			<h1>8</h1>
+			<h2 id="eight">Good design is through<br>down to the last detail</h2>
+			<p>Being a designer and thinking about 
+				the very last detail is having a good design. 
+				Yes, throughout the design process there 
+				will be changes but being to figure ways in 
+				which things can be better is a to creating 
+				good design.
+				</p>
+			</div>
+		<div class="text1">
+			<h1>10</h1>
+			<h2 id="ten">Good design is as little<br>design as possible</h2>
+			<p>In a way I agree with this because if doing something which is constructed by simpler design can be a more positive outcome for the viewers and users. Not to say that having a lot can be bad but in some cases a lot of design is needed to be brought out to live (if not done the right way).
+			</p>
+			</div>
+	
+	</div>
+	
+	
+</body>
+</html>
