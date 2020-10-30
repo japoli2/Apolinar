@@ -3,9 +3,21 @@
 <head>
 <meta charset="utf-8">
 <title>Self_Portrait</title>
+	<meta name="viewport" content="width=device=width, initial-scale=1.0">
 	<style>
 		body{
 			background-color: #8C3E0D;
+	animation-name: blush;
+  	animation-duration: 3s;
+	animation-delay: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes blush {
+  0%   {background-color: ;}
+  25%  {background-color: #947352;}
+  50%  {background-color: #B57154;}
+  100% {background-color: ;}
 		}
 		.hair{
 			position: absolute;
@@ -282,7 +294,7 @@
 			
 	animation-name: move;
 	animation-duration: 3s;
-	animation-delay: 3.2s;
+	animation-delay: 3.1s;
 	animation-iteration-count: infinite;
 		}
 		@-webkit-keyframes move {
@@ -504,7 +516,19 @@
 		  	background: #B57154;
 			top: 340px;
 			left: 565px;
-		}
+			
+		animation-name: blush;
+  		animation-duration: 3s;
+	animation-delay: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes blush {
+  0%   {background-color: ;}
+  25%  {background-color: #947352;}
+  50%  {background-color: #B57154;}
+  100% {background-color: ;}
+}
 		.blushR{
 			position: absolute;
 			width: 50px;
@@ -513,7 +537,18 @@
 		  	background: #B57154;
 			top: 340px;
 			left: 740px;
-		}
+		animation-name: blushh;
+  		animation-duration: 3s;
+	animation-delay: 3.1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes blushh {
+  0%   {background-color: ;}
+  25%  {background-color:#947352 ;}
+  50%  {background-color: #B57154;}
+  100% {background-color: ;}
+}
 		.detail{
 			position: absolute;
 			width: 70px;
